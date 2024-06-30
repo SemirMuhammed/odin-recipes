@@ -1,0 +1,3 @@
+# odin-recipes
+
+This project is my way of checking my knowledge so far...
