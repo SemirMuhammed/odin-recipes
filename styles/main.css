@@ -1,8 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * {
   font-size: 18px;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue";
 }
 
-h1 {
-  font-size: 1rem;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 32px auto;
+  width: fit-content;
+  position: sticky;
+  top: 0;
+  background: hsl(320deg, 10%, 90%);
+  padding: 8px 0;
+  border-radius: 0 0 16px 16px;
+}
+
+header .home a {
+  font-size: 4rem;
+  font-weight: 1000;
+  border: solid;
+  color: hsl(40deg, 100%, 50%);
+  background: hsl(320deg, 40%, 20%);
+  /* border-radius: 16px; */
+  border-radius: 0 0 16px 16px;
+  padding: 8px;
+}
+
+header .navigation-links a {
+  font-size: 2rem;
+  font-weight: 1000;
+  margin-right: 32px;
+  color: hsl(45deg, 100%, 30%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: hsl(300deg, 30%, 90%);
+  align-items: center;
+}
+
+footer a {
+  font-size: 1.25rem;
+}
+
+footer .logo a {
+  font-size: 3rem;
+  font-weight: 1000;
+  color: hsl(40deg, 100%, 50%);
+}
+
+footer .social-media {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .navigation-links {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
 }
