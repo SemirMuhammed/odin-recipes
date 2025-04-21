@@ -1,5 +1,4 @@
 section {
-  width: 800px;
   /* width: 320px; */
   margin: 8px auto;
   background: hsl(200deg, 13%, 95%);
@@ -35,12 +34,12 @@ section {
   border: 16px solid hsl(200deg, 60%, 80%);
 }
 .content-wrapper h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 8px 0;
 }
 
 .content-wrapper p {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .introduction {
@@ -60,7 +59,7 @@ section {
 }
 
 .introduction p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .introduction .learn-more {

@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * {
   font-size: 18px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Comic Neue";
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -15,59 +14,74 @@ a {
 header {
   display: flex;
   align-items: center;
-  gap: 32px;
-  margin: 32px auto;
-  width: fit-content;
+  justify-content: space-between;
+  /* gap: 32px; */
+  /* margin: 32px auto; */
+  /* width: fit-content; */
   position: sticky;
   top: 0;
   background: hsl(320deg, 10%, 90%);
   padding: 8px 0;
-  border-radius: 0 0 16px 16px;
+  border-radius: 0 0 8px 8px;
 }
 
 header .home a {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 1000;
-  border: solid;
   color: hsl(40deg, 100%, 50%);
   background: hsl(320deg, 40%, 20%);
+  border: solid;
   /* border-radius: 16px; */
-  border-radius: 0 0 16px 16px;
+  border-radius: 0 0 8px 8px;
   padding: 8px;
 }
 
 header .navigation-links a {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 1000;
   margin-right: 32px;
   color: hsl(45deg, 100%, 30%);
 }
 
 footer {
+  padding: 16px;
   display: flex;
+  /* flex-direction: column; */
+  /* padding: 16px; */
   justify-content: space-around;
   background: hsl(300deg, 30%, 90%);
-  align-items: center;
+  /* align-items: center; */
 }
 
-footer a {
-  font-size: 1.25rem;
+footer .logo {
+  /* padding: 16px 0; */
+  /* text-align: center; */
+  /* width: fit-content; */
 }
 
 footer .logo a {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 1000;
   color: hsl(40deg, 100%, 50%);
 }
 
+footer .logo p {
+  padding: 8px 0;
+}
+footer .social-media a {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 2rem;
+}
 footer .social-media {
-  padding-top: 8px;
   display: flex;
-  flex-direction: column;
+  gap: 48px;
+  flex-direction: row;
 }
 
 footer .navigation-links {
   padding-top: 8px;
   display: flex;
-  flex-direction: column;
+  gap: 96px;
+  margin-left: 16px;
+  /* flex-direction: column; */
 }
