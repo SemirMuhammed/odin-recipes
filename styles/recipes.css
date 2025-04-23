@@ -1,0 +1,51 @@
+p {
+  line-height: 1.25;
+  font-size: 1.25rem;
+}
+main h1 {
+  font-size: 2rem;
+  margin: 32px auto;
+  width: fit-content;
+}
+
+main .image-wrapper img {
+  width: 500px;
+}
+
+main .image-wrapper {
+  margin: 0 auto;
+  width: fit-content;
+  border: 8px solid hsl(240deg, 20%, 80%);
+  border-radius: 8px;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 32px 0 16px;
+}
+
+main p {
+  font-size: 1.15rem;
+  text-align: justify;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 32px 0 16px;
+}
+
+section li {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  /* padding: 0 16px; */
+  text-align: justify;
+}
+section {
+  padding: 0 16px;
+}
+
+section.steps {
+  margin-bottom: 64px;
+}

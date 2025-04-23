@@ -1,5 +1,6 @@
-section {
-  /* width: 320px; */
+section,
+main {
+  /* width: 1024px; */
   margin: 8px auto;
   background: hsl(200deg, 13%, 95%);
   border-radius: 16px;
@@ -26,12 +27,16 @@ section {
   padding: 32px;
   display: flex;
   gap: 32px;
-  border: 16px solid transparent;
+  border: 8px solid transparent;
   margin-bottom: 16px;
 }
 
+.highlight .image-wrapper {
+  max-width: 220px;
+}
+
 .highlight:hover {
-  border: 16px solid hsl(200deg, 60%, 80%);
+  border: 8px solid hsl(200deg, 60%, 80%);
 }
 .content-wrapper h2 {
   font-size: 1.5rem;
@@ -39,29 +44,46 @@ section {
 }
 
 .content-wrapper p {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .introduction {
-  padding: 32px;
-  margin-top: 64px;
+  padding: 64px 32px 32px;
+  margin: 64px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
+.introduction > .content-wrapper {
+  margin: 0 32px;
+  width: 45%;
+  text-align: justify;
+}
 .introduction .indented-heading {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   background: hsl(40deg, 100%, 60%);
   padding: 16px;
   width: fit-content;
   border-radius: 16px;
-  margin: -56px auto 16px;
 }
 .indented-heading h1 {
   font-size: 2rem;
 }
 
 .introduction p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin: 16px 0;
 }
 
 .introduction .learn-more {
   text-align: right;
+}
+
+.introduction .image-wrapper {
+  width: 45%;
 }
